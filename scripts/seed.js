@@ -22,7 +22,7 @@ const seed = async () => {
     
     if (!existeAdmin) {
       const salt = bcryptjs.genSaltSync();
-      const password = bcryptjs.hashSync('admin123', salt);
+      const password = bcryptjs.hashSync('admin1234', salt);
       
       await Usuario.create({
         name: 'Administrador',
