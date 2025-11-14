@@ -37,6 +37,7 @@ router.post(
     validarJWT, 
     tieneRol("ADMIN_ROLE", "GERENTE"),
     check("nombre", "El nombre es obligatorio").notEmpty(),
+    validarCampos,
   ],
   crearCategoria
 );
