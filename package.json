@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "seed": "node scripts/seed.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zeta-dev-web/stock-back.git"
   },
-  "author": "Lourdes Cervera",
+  "author": "MAximo Villalba",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/zeta-dev-web/stock-back/issues"
